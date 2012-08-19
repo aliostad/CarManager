@@ -18,9 +18,15 @@ namespace CarManager.Web
 				name: "DefaultApi",
 				routeTemplate: "api/{controller}/{id}",
 				defaults: new { id = RouteParameter.Optional }
-);
+				);
 
-			GlobalConfiguration.Configuration.MessageHandlers.Add(new CachingHandler());
+			GlobalConfiguration.Configuration.Routes.MapHttpRoute(
+				name: "Home",
+				routeTemplate: "{controller}",
+				defaults: new { controller = "Home" }
+				);
+
+			GlobalConfiguration.Configuration.MessageHandlers.Add(new CachingHandler("Accept"));
 
 		}
 
