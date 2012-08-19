@@ -35,13 +35,13 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="CacheCow.Common, Version=0.2.0.0, Culture=neutral, processorArchitecture=MSIL">
+    <Reference Include="CacheCow.Common, Version=0.2.1.0, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\packages\CacheCow.Common.0.2.0\lib\net40\CacheCow.Common.dll</HintPath>
+      <HintPath>..\packages\CacheCow.Common.0.2.1\lib\net40\CacheCow.Common.dll</HintPath>
     </Reference>
-    <Reference Include="CacheCow.Server, Version=0.2.0.0, Culture=neutral, processorArchitecture=MSIL">
+    <Reference Include="CacheCow.Server, Version=0.2.1.0, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\packages\CacheCow.Server.0.2.0\lib\net40\CacheCow.Server.dll</HintPath>
+      <HintPath>..\packages\CacheCow.Server.0.2.1\lib\net40\CacheCow.Server.dll</HintPath>
     </Reference>
     <Reference Include="Microsoft.CSharp" />
     <Reference Include="Microsoft.Web.Infrastructure, Version=1.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
