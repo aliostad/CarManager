@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Diagnostics;
 using System.Linq;
 using System.Net;
 using System.Net.Http;
@@ -21,7 +22,9 @@ namespace CarManager.Web.Controllers
 
 		public Car Get(int id)
 		{
+			Debug.WriteLine(HttpContext.Current.Request.Url);
 			return _carRepository.Get(id);
+
 		}
 
 		public void Put(Car car)
